@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+       
+       
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="../css/index.css">
+        <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/foot.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+        <title>Alitas pepis</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">Alitas Pepis</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <div class="content-container">
+            <!-- Contact Form on the Left -->
+            <section class="contact-section">
+                <h2>Contact Us</h2>
+                <form id="contact-form" action="#" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+    
+            <!-- Image on the Right -->
+            <section class="image-section">
+                <img src="/www/img/pollosrostisados.jpg" alt="Pollos bien perrones">
+            </section>
+        </div>
+
+        <div class="text-container">
+            <section class="text-section">
+                <h3>Text 1</h3>
+                <p>Description of Text 1.</p>
+            </section>
+    
+            <section class="text-section">
+                <h3>Text 2</h3>
+                <p>Description of Text 2.</p>
+            </section>
+    
+            <section class="text-section">
+                <h3>Text 3</h3>
+                <p>Description of Text 3.</p>
+            </section>
+        </div>
+
+
+        <section class="geolocation-section">
+            <h2>Geolocation</h2>
+            <p id="geolocation-info">Waiting for location...</p>
+            <button id="get-location-btn">Get Location</button>
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>&copy; 2023 Alitas Pepis. All Rights Reserved.</h2>
+                </div>
+                <div class="footer-section social-media">
+                    <h2>Follow Us</h2>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    
+        <script src="../js/app.js"></script>
+        <script src="../js/cordova.js"></script>
+      </body>
+</html>
