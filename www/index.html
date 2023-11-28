@@ -53,11 +53,11 @@
                 <h2 class="title">Inicia Sesión</h2>
                 <div class="input-field">
                   <i class="fas fa-user"></i>
-                  <input type="text" placeholder="Username" />
+                  <input type="text" placeholder="Correo" />
                 </div>
                 <div class="input-field">
                   <i class="fas fa-lock"></i>
-                  <input type="password" placeholder="Password" />
+                  <input type="password" placeholder="Contraseña" />
                 </div>
                 <input type="submit" value="Login" class="btn solid" />
                 <p class="social-text">O inicia sesión con </p>
@@ -80,17 +80,21 @@
                 <h2 class="title">Registrarse</h2>
                 <div class="input-field">
                   <i class="fas fa-user"></i>
-                  <input type="text" placeholder="Username" />
+                  <input id="names" type="text" placeholder="Nombres" />
                 </div>
                 <div class="input-field">
                   <i class="fas fa-envelope"></i>
-                  <input type="email" placeholder="Email" />
+                  <input id="lastnames" type="text" placeholder="Apellidos" />
+                </div>
+                <div class="input-field">
+                  <i class="fas fa-envelope"></i>
+                  <input id="email" type="email" placeholder="Correo" />
                 </div>
                 <div class="input-field">
                   <i class="fas fa-lock"></i>
-                  <input type="password" placeholder="Password" />
+                  <input id="pass" type="password" placeholder="Contraseña" />
                 </div>
-                <input type="submit" class="btn" value="Sign up" />
+                <input type="submit" class="btn" onclick="Registrarse()" value="Sign up" />
                 <p class="social-text">O registrate con </p>
                 <div class="social-media">
                   <a href="#" class="social-icon">
@@ -164,5 +168,6 @@
       </footer>
     
         <script src="js/app.js"></script>
+        <script src="js/index.js"></script>
       </body>
 </html>
